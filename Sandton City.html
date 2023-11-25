@@ -12,7 +12,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<meta name="author" content="Untree.co">
-	<link rel="shortcut icon" href="favicon.png">
+	<link rel="shortcut icon" href="dvicon.png">
 
 	<meta name="description" content="" />
 	<meta name="keywords" content="bootstrap, bootstrap5" />
@@ -499,6 +499,8 @@
 
 
 
+		<script src="js/index.js"></script>
+
 		<script src="js/bootstrap.bundle.min.js"></script>
 		<script src="js/tiny-slider.js"></script>
 		<script src="js/aos.js"></script>
@@ -508,22 +510,6 @@
 		<script src="js/flatpickr.js"></script>
 		<script src="js/glightbox.min.js"></script>
 		<script src="js/custom.js"></script>
-		<script>
-			let index = 0;
-			displayImages();
-			function displayImages() {
-			let i;
-			const images = document.getElementsByClassName("image");
-			for (i = 0; i < images.length; i++) {
-				images[i].style.display = "none";
-			}
-			index++;
-			if (index > images.length) {
-				index = 1;
-			}
-			images[index-1].style.display = "block";
-			setTimeout(displayImages, 10000); 
-			}
-		</script>
+
 	</body>
 	</html>

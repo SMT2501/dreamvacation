@@ -482,7 +482,7 @@
 			</div>
 		</div>
 
-		
+		<script src="js/index.js"></script>
 		<script src="js/bootstrap.bundle.min.js"></script>
 		<script src="js/tiny-slider.js"></script>
 		<script src="js/aos.js"></script>
@@ -493,22 +493,6 @@
 		<script src="js/glightbox.min.js"></script>
 		<script src="js/custom.js"></script>
 
-		<script>
-			let index = 0;
-			displayImages();
-			function displayImages() {
-			let i;
-			const images = document.getElementsByClassName("image");
-			for (i = 0; i < images.length; i++) {
-				images[i].style.display = "none";
-			}
-			index++;
-			if (index > images.length) {
-				index = 1;
-			}
-			images[index-1].style.display = "block";
-			setTimeout(displayImages, 10000); 
-			}
-		</script>
+
 	</body>
 	</html>
