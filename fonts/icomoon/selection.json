@@ -41177,7 +41177,7 @@
     },
     "imagePref": {
       "prefix": "icon-",
-      "png": true,
+      "jpg": true,
       "useClassSelector": true,
       "color": 0,
       "bgColor": 16777215,
